@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font: italic small-caps 5rem Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-variant: small-caps;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+nav a {
+    text-decoration:  none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+header img {
+    width: 960px;
+}
+
+article img {
+    width: 400px;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;    
+    padding: 10px;
+    list-style-type: none;
+}
+
+.activity img {
+    float: left;
+
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.activity li {
+    list-style-position: inside;
+}
+
+.experience input[type=text],
+.experience input[type=email],
+.experience textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+.experience {
+    margin-bottom: 20px;
+}
+
+.center {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* unvisited link */
+nav a:link {
+    color: black;
+}
+
+/* visited link */
+nav a:visited {
+    color: black;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: blue;
+}
+
+/* selected link */
+nav a:active {
+    color: gray;
+}
